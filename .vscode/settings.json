@@ -1,0 +1,52 @@
+{
+  "yaml.schemas": {
+    "Schemas/TVM Schema.json": [
+      "**/Threat*Vectors/*.yaml"
+    ],
+    "Schemas/CDM Schema.json": [
+      "**/Detection*Models/*.yaml"
+    ],
+    "Schemas/MDR Schema.json": [
+      "**/Detection*Rules/*.yaml"
+    ],
+    "Schemas/BDR Schema.json": [
+      "**/Business*Detections/*.yaml"
+    ],
+    "Schemas/Detection Objective.schema.json": [
+      "**/Detection*Objectives/*.yaml"
+    ],
+  },
+
+  "redhat.telemetry.enabled": false,
+  "yaml.schemaStore.enable": false,
+  "yaml.trace.server": "verbose",
+  "evenBetterToml.schema.associations": {
+    ".*harfanglab.*": "file://./Schemas/Configurations/HarfangLab.schema.json",
+    ".*defender_for_endpoint.*": "file://./Schemas/Configurations/Defender for Endpoint.schema.json",
+    ".*sentinel_one.*": "file://./Schemas/Configurations/Sentinel One.schema.json",
+    ".*crowdstrike.*": "file://./Schemas/Configurations/CrowdStrike.schema.json",
+    ".*deployment.*": "file://./Schemas/Configurations/deployment.schema.json",
+    ".*visibility.*": "file://./Schemas/Configurations/visibility.schema.json"
+  },
+  "evenBetterToml.schema.catalogs": [],
+  "editor.suggest.showSnippets": false,
+  "python.terminal.executeInFileDir" : true,
+
+  "markdown.preview.openMarkdownLinks": "inPreview",
+
+  "workbench.editorAssociations": {
+    "*.csv": "gc-excelviewer-csv-editor",
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "csv-preview.lineNumbers": "ordinal",
+  "csv-preview.capitalizeHeaders": false,
+
+  "git.autofetch": true,
+  "git.autofetchPeriod": 30,
+  "git.autorefresh": true,
+  "git.autoStash": true,
+  "git.pruneOnFetch": true,
+  "git.showPushSuccessNotification": true,
+  "python.analysis.typeCheckingMode": "basic",
+
+}

@@ -1,0 +1,34 @@
+name: 
+criticality: 
+#references:
+  #public:
+    #1: 
+  #internal:
+    #a: 
+
+metadata:
+  uuid: 
+  schema: bdr::2.0
+  version: 
+  created: YYYY-MM-DD
+  modified: YYYY-MM-DD
+  tlp: 
+  #author: 
+  #contributors:
+    #-
+  #organisation:
+    #uuid: 
+    #name: 
+
+request:
+  domains:
+    - 
+  #targets:
+    #-
+  #platforms:
+    #-
+  violation: 
+  justification: |
+    ...
+  description: |
+    ...

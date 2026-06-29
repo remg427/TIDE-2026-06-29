@@ -1,0 +1,40 @@
+name: 
+criticality: 
+#references:
+  #public:
+    #1: 
+  #internal:
+    #a: 
+metadata:
+  uuid: 
+  schema: cdm::2.0
+  version: 
+  created: YYYY-MM-DD
+  modified: YYYY-MM-DD
+  tlp: 
+  #author: 
+  #contributors:
+    #-
+  #organisation:
+    #uuid: 
+    #name: 
+
+detection:
+  vectors:
+    - 
+  #killchain: 
+  #att&ck: 
+  methods:
+    - 
+  maturity: 
+  feasibility: 
+  datasources:
+    - 
+  collection:
+    - 
+  artifacts:
+    - 
+  guidelines: |
+    ...
+  tuning: |
+    ...

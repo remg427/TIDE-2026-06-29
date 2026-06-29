@@ -23,6 +23,7 @@
 #enabled = true
 #promotion_target = "PRODUCTION"
 
+# Uncomment and configure if you need proxy access
 [proxy]
 #proxy_user = "$PROXY_USER"
 #proxy_password = "$PROXY_PASSWORD"

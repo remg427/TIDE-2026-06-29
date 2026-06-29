@@ -29,16 +29,6 @@
         },
         "entries": {}
     },
-    "bdr": {
-        "metadata": {
-            "field": "bdr",
-            "icon": "\ud83c\udfdb\ufe0f",
-            "name": "Business Requests",
-            "description": "Business Requests",
-            "model": true
-        },
-        "entries": {}
-    },
     "mdr": {
         "metadata": {
             "field": "mdr",
